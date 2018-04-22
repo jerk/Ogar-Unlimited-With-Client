@@ -7,7 +7,7 @@ A fully functional open source Agar.io server implementation, written in Node.js
 
 ###### Installation Guide (short)
 1. Download and install Node
-    * Required version **v5.9.0**
+    * Recommended version **v5.9.0 / Should Work With Latest** 
 2. Download Ogar Unlimited (Zip or Git)
     * [Download Latest Zip](https://github.com/AJS-development/Ogar-unlimited/archive/master.zip)
     * ``` git clone git@github.com:AJS-development/Ogar-unlimited.git ```
