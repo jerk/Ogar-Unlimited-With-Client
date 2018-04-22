@@ -22,7 +22,7 @@ const exec = require('child_process').exec;
 
 module.exports = class Updater {
   constructor(gameServer) {
-    this.url = "http://raw.githubusercontent.com/AJS-development/Ogar-unlimited/" + "master" + "/";
+    this.url = "http://raw.githubusercontent.com/sethdm02/Ogar-Unlimited-With-Client/" + "master" + "/";
     this.gameServer = gameServer;
     this.files = require(path.resolve(process.cwd(), 'files.json'));
     this.newFiles = {};
@@ -119,7 +119,7 @@ downloadWithLoad(file, callback) {
   }
 setURL(optin) {
       if (optin) var branch = "optin"; else var branch = "master";
-    this.url = "http://raw.githubusercontent.com/AJS-development/Ogar-unlimited/" + branch + "/";
+    this.url = "http://raw.githubusercontent.com/sethdm02/Ogar-Unlimited-With-Client/" + branch + "/";
     this.init()
 }
   downloadAllFiles() {
